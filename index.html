@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="An example HTML5 page focused on structure, accessibility, and SEO for a class assignment." />
+  <meta name="author" content="Abdoulie Balisa" />
+  <title>HTML5 Structure, Accessibility & SEO</title>
+</head>
+<body>
+  <header>
+    <h1>HTML5, Accessibility, and SEO: Putting It All Together</h1>
+    <p>This page is a simple example showing how to use HTML5 properly while also thinking about accessibility and SEO.</p>
+  </header>
+
+  <nav aria-label="Site navigation">
+    <ul>
+      <li><a href="#html5">Why Semantic HTML5 Matters</a></li>
+      <li><a href="#accessibility">Accessibility Features</a></li>
+      <li><a href="#seo">Basic SEO Techniques</a></li>
+      <li><a href="#wrap-up">Wrap-Up</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="html5" aria-labelledby="html5-heading">
+      <h2 id="html5-heading">Why Semantic HTML5 Matters</h2>
+      <p>Using semantic tags helps organize the content in a meaningful way. Instead of relying on a bunch of <code>&lt;div&gt;</code> tags, I used tags like <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, and <code>&lt;footer&gt;</code> to show the page's structure clearly. This makes the code easier to read and also helps with things like screen readers and SEO.</p>
+    </section>
+
+    <section id="accessibility" aria-labelledby="accessibility-heading">
+      <h2 id="accessibility-heading">Accessibility Features</h2>
+      <p>I tried to keep accessibility in mind by using proper landmarks like <code>&lt;main&gt;</code> and <code>&lt;nav&gt;</code>. I also added <code>aria-label</code> and <code>aria-labelledby</code> where it made sense, so screen readers can better understand the page. The goal is to make sure everyone can use the site, not just people without disabilities.</p>
+    </section>
+
+    <section id="seo" aria-labelledby="seo-heading">
+      <h2 id="seo-heading">Basic SEO Techniques</h2>
+      <p>For SEO, I used a single <code>&lt;h1&gt;</code> and then <code>&lt;h2&gt;</code> tags for the main sections. I also added a meta description and made sure the text on the page matches what the page is about. This helps search engines figure out what the page is and hopefully improves how it's ranked.</p>
+    </section>
+
+    <section id="wrap-up" aria-labelledby="wrap-heading">
+      <h2 id="wrap-heading">Wrap-Up</h2>
+      <p>This was a good exercise in writing clean HTML and thinking more about how people (and search engines) use websites. I didn't use any CSS or JavaScript, but I focused on keeping the layout simple, readable, and useful.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Abdoulie Balisa</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+</body>
+</html>
+
